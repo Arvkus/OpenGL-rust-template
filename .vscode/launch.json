@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "clr",
+            "name": "Cargo launch",
+            "request": "launch",
+            "program": "${workspaceFolder}/target/debug/main-cargo.exe",
+            "preLaunchTask": "cargo build task",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+        }
+    ]
+}

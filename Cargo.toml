@@ -1,0 +1,17 @@
+
+[package]
+name = "main-cargo"
+version = "0.0.1"
+authors = ["Arvkus <arvydasv201@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+# graphics
+gl = "0.14.0"
+glm = "0.2.3"
+nalgebra-glm = "0.5.0"
+sdl2 = { version = "0.33.0", features = ["static-link"] }
+
+# utilities
+xml-rs = "0.8.0"
